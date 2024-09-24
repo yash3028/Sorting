@@ -4,8 +4,6 @@ def quick_sort(arr,lb,ub):
         quick_sort(arr,lb,mid-1)
         quick_sort(arr,mid+1,ub)
 
-
-
 def subarr(arr,lb,ub):
     pivot=arr[lb]
     start=lb
